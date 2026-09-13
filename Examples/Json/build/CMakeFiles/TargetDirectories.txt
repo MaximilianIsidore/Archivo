@@ -1,0 +1,3 @@
+/media/maximilian-isidore/devSpace/learning-projects/Archivo/Examples/Json/build/CMakeFiles/example-1.dir
+/media/maximilian-isidore/devSpace/learning-projects/Archivo/Examples/Json/build/CMakeFiles/edit_cache.dir
+/media/maximilian-isidore/devSpace/learning-projects/Archivo/Examples/Json/build/CMakeFiles/rebuild_cache.dir

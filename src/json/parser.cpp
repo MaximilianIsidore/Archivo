@@ -86,9 +86,8 @@ void JsonParser::expect(char c, const std::string& message){
 }
 
 void JsonParser::skip_whitespaces(){
-    char c = content[current];
 
-    if(std::isspace(static_cast<unsigned char>(c))){
+    while(std::isspace(static_cast<unsigned char>(content[current]))){
         advance();
     }
 }
@@ -154,6 +153,7 @@ JsonValue JsonParser::parse_number(){
 }
 
 JsonValue JsonParser::parse_array(){
+    advance();
     JsonArray jsonarray;
 
     skip_whitespaces();
@@ -179,6 +179,8 @@ JsonValue JsonParser::parse_array(){
 }
 
 JsonValue JsonParser::parse_object(){
+    advance();
+
     JsonObject jsonobject;
 
     skip_whitespaces();
