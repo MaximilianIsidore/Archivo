@@ -1,0 +1,17 @@
+{
+  "name": "Alice",
+  "age": 25,
+  "height": 1.68,
+  "active": true,
+  "verified": false,
+  "nickname": null,
+  "skills": [
+    "C",
+    "C++",
+    "JSON"
+  ],
+  "address": {
+    "city": "wonderland",
+    "zip": 100001
+  }
+}
